@@ -1,6 +1,6 @@
 ## Deployment
 
-Deploys via deploybot
+Deploys via deploybot to davidyoh.com
 
 
 
