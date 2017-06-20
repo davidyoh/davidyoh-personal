@@ -37,15 +37,15 @@ class Clock extends React.Component {
     return (
 
     <div className="App">
-        <div className="App-header">
+        <div >
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>David's React Project</h2>
+          <h2>David Oh. Currently experimenting with React</h2>
         </div>
      
-   
-        <h1>Hello, world!</h1>
         <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
-        <h3>Random Number: {randomNumber}</h3>
+        <h3>Lucky Number Right Now: {randomNumber}</h3>
+        <h3> <a href = "https://ohvious.com">Ohvious.com - Food, Tech, DIY Blog</a></h3>
+        <h3><a href = "https://www.linkedin.com/in/davidoh/">Linkedin</a> | <a href = "https://github.com/davidyoh">GitHub</a> | <a href = "https://facebook.com/davidyoh">Facebook</a> | <a href = "https://instagram.com/davidyoh">Instagram</a></h3>
       </div>
     );
   }
